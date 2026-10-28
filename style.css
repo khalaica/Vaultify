@@ -593,4 +593,106 @@ select option {
 .balance-date {
   color: #e0f2ee;
 }
+
+```css
+/* FIX: teks judul dan riwayat transaksi */
+.panel,
+.panel h2,
+.section-heading h2,
+.history-panel,
+.history-panel h2 {
+  color: #ffffff !important;
+}
+
+/* FIX: tombol simpan transaksi */
+.primary-button {
+  background: #64ffcb !important;
+  color: #07130f !important;
+  font-weight: 800;
+  opacity: 1 !important;
+}
+
+/* FIX: nominal Rp dan saldo */
+#balance,
+#income,
+#expense,
+.summary-card h3,
+.transaction-amount {
+  opacity: 1 !important;
+  font-weight: 700;
+}
+
+#balance {
+  color: #ffffff !important;
+}
+
+#income,
+.income {
+  color: #64ffcb !important;
+}
+
+#expense,
+.expense {
+  color: #ff809e !important;
+}
+
+/* FIX: ikon plus dan minus */
+.summary-icon {
+  opacity: 1 !important;
+  font-weight: 800;
+}
+
+.income-icon {
+  background: #15352f !important;
+  color: #64ffcb !important;
+  border: 1px solid #64ffcb !important;
+}
+
+.expense-icon {
+  background: #3a1b29 !important;
+  color: #ff809e !important;
+  border: 1px solid #ff809e !important;
+}
+
+/* FIX: teks deskripsi transaksi */
+.transaction-info strong {
+  color: #ffffff !important;
+}
+
+.transaction-info small {
+  color: #c0cada !important;
+}
+
+.empty-state {
+  color: #c0cada !important;
+}
+
+/* FIX: tulisan kategori dan form */
+label {
+  color: #ffffff !important;
+}
+
+input,
+select {
+  color: #ffffff !important;
+  background: #111827 !important;
+  border-color: #354158 !important;
+}
+
+input::placeholder {
+  color: #aab5c8 !important;
+}
+
+/* FIX: ikon plus di bagian tambah transaksi */
+.heading-icon {
+  background: #15352f !important;
+  color: #64ffcb !important;
+  border: 1px solid #64ffcb !important;
+}
+
+/* Pastikan warna teks tidak memudar */
+.panel,
+.summary-card {
+  opacity: 1 !important;
+}
 ```
