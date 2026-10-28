@@ -7,14 +7,13 @@
   --green-light: #15352f;
   --background: #090d16;
   --white: #111827;
-  --text: #f1f5f9;
-  --muted: #8b97ad;
-  --border: #263044;
-  --red: #ff6b91;
-  --purple: #a78bfa;
+  --text: #ffffff;
+  --muted: #c0cada;
+  --border: #354158;
+  --red: #ff809e;
+  --purple: #b9a3ff;
   --radius: 22px;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -545,5 +544,53 @@ button:focus-visible {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
   }
+}
+
+```css
+/* Perbaikan kontras teks */
+body,
+.welcome h2,
+.section-heading h2,
+.summary-card h3,
+.transaction-info strong,
+footer p:first-child {
+  color: #ffffff;
+}
+
+.brand h1,
+label {
+  color: #f8fafc;
+}
+
+.brand p,
+.welcome > p:last-child,
+.summary-card p,
+.transaction-info small,
+.privacy-note,
+.empty-state {
+  color: #c0cada;
+}
+
+input,
+select {
+  color: #ffffff;
+  background-color: #111827;
+}
+
+input::placeholder {
+  color: #aab5c8;
+}
+
+select option {
+  color: #ffffff;
+  background-color: #111827;
+}
+
+.balance-card {
+  color: #ffffff;
+}
+
+.balance-date {
+  color: #e0f2ee;
 }
 ```
