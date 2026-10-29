@@ -911,4 +911,10 @@ footer p:first-child {
   opacity: 1 !important;
   visibility: visible !important;
 }
+
+```css
+/* Sembunyikan ikon plus di judul Tambah transaksi */
+.panel .section-heading .heading-icon {
+  display: none !important;
+}
 ```
