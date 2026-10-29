@@ -804,4 +804,70 @@ footer {
 footer p:first-child {
   color: #172033 !important;
 }
+
+```css
+/* ===== ELEGANT DARK BACKGROUND ===== */
+
+html {
+  background-color: #090d16 !important;
+}
+
+body {
+  background:
+    radial-gradient(
+      ellipse at 0% 0%,
+      rgba(100, 255, 203, 0.07),
+      transparent 35%
+    ),
+    radial-gradient(
+      ellipse at 100% 35%,
+      rgba(167, 139, 250, 0.08),
+      transparent 30%
+    ),
+    #090d16 !important;
+  color: #f8fafc;
+}
+
+/* Header menyatu dengan background */
+.header {
+  background: rgba(9, 13, 22, 0.92) !important;
+  border-bottom: 1px solid #263044 !important;
+}
+
+/* Semua area utama transparan */
+.container {
+  background: transparent !important;
+}
+
+/* Kartu dibuat sedikit berbeda dari background */
+.summary-card,
+.panel {
+  background: linear-gradient(
+    145deg,
+    #151e2d,
+    #101622
+  ) !important;
+  border: 1px solid #293449 !important;
+}
+
+/* Deskripsi di area gelap */
+.welcome > p:last-child {
+  color: #aab5c8 !important;
+}
+
+/* Catatan privasi agar tetap terbaca */
+.privacy-note {
+  color: #aab5c8 !important;
+}
+
+/* Footer menyatu dengan halaman */
+footer {
+  background: transparent !important;
+  border-top: 1px solid #263044 !important;
+  color: #aab5c8 !important;
+}
+
+footer p:first-child {
+  color: #f8fafc !important;
+}
 ```
