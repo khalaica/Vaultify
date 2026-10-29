@@ -695,4 +695,113 @@ input::placeholder {
 .summary-card {
   opacity: 1 !important;
 }
+
+```css
+/* ===== FIX WARNA TEKS VAULTIFY ===== */
+
+/* Judul utama dan deskripsi */
+.welcome h2 {
+  color: #172033 !important;
+}
+
+.welcome > p:last-child {
+  color: #475569 !important;
+}
+
+/* Label kecil: PERSONAL FINANCE, RECORD, YOUR ACTIVITY */
+.eyebrow,
+.welcome .eyebrow,
+.section-heading .eyebrow {
+  color: #64ffcb !important;
+}
+
+/* Judul panel: Tambah transaksi & Riwayat transaksi */
+.section-heading h2,
+.panel h2,
+.history-panel h2 {
+  color: #ffffff !important;
+}
+
+/* Tulisan pada kartu ringkasan */
+.summary-card p {
+  color: #cbd5e1 !important;
+}
+
+/* Saldo */
+.balance-card > p:first-child,
+.balance-date {
+  color: #e2e8f0 !important;
+}
+
+/* Form */
+.panel label {
+  color: #f8fafc !important;
+}
+
+/* Tombol simpan */
+button.primary-button {
+  background-color: #64ffcb !important;
+  color: #101827 !important;
+  font-weight: 800 !important;
+}
+
+/* Ikon tambah (+) */
+.heading-icon {
+  color: #64ffcb !important;
+  background-color: #15352f !important;
+}
+
+/* Ikon pemasukan (+) dan pengeluaran (-) */
+.income-icon {
+  color: #64ffcb !important;
+  background-color: #15352f !important;
+}
+
+.expense-icon {
+  color: #ff809e !important;
+  background-color: #3a1b29 !important;
+}
+
+/* Nominal uang */
+#balance {
+  color: #ffffff !important;
+}
+
+#income,
+.income {
+  color: #64ffcb !important;
+}
+
+#expense,
+.expense {
+  color: #ff809e !important;
+}
+
+.transaction-amount {
+  color: #ffffff !important;
+}
+
+/* Riwayat transaksi */
+.transaction-info strong {
+  color: #ffffff !important;
+}
+
+.transaction-info small,
+.empty-state {
+  color: #cbd5e1 !important;
+}
+
+/* Catatan privasi di luar panel gelap */
+.privacy-note {
+  color: #475569 !important;
+}
+
+/* Footer di luar panel */
+footer {
+  color: #64748b !important;
+}
+
+footer p:first-child {
+  color: #172033 !important;
+}
 ```
