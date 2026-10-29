@@ -917,4 +917,20 @@ footer p:first-child {
 .panel .section-heading .heading-icon {
   display: none !important;
 }
+
+```css
+/* Hilangkan ikon + di header form transaksi */
+#transaction-form {
+  position: relative;
+}
+
+.panel .section-heading .heading-icon {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Pastikan hanya tombol simpan yang tetap tampil */
+#transaction-form .primary-button {
+  display: block !important;
+}
 ```
