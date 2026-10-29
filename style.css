@@ -874,42 +874,21 @@ footer p:first-child {
 ```css
 /* FIX LOGO VAULTIFY */
 .brand-icon {
-  background: linear-gradient(135deg, #64ffcb, #43e8b0) !important;
-  color: #09120f !important;
-  border: 1px solid #8bffdc !important;
+  background: linear-gradient(135deg, #64ffcb, #43e8b0);
+  color: #09120f;
+  border: 1px solid #8bffdc;
   box-shadow:
     0 0 15px rgba(100, 255, 203, 0.25),
-    0 0 30px rgba(100, 255, 203, 0.10) !important;
-  font-weight: 800 !important;
-  opacity: 1 !important;
+    0 0 30px rgba(100, 255, 203, 0.10);
+  font-weight: 800;
+  opacity: 1;
 }
 
 /* Pastikan huruf V terlihat jelas */
 .brand-icon {
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 27px !important;
-  text-shadow: none !important;
-}
-
-```css
-/* LOGO VAULTIFY — PURPLE NEON */
-.header .brand .brand-icon {
-  background: linear-gradient(135deg, #a78bfa, #7c3aed) !important;
-  color: #ffffff !important;
-  border: 2px solid #c4b5fd !important;
-  border-radius: 17px !important;
-
-  box-shadow:
-    0 0 15px rgba(167, 139, 250, 0.4),
-    0 0 30px rgba(124, 58, 237, 0.2) !important;
-
-  font-family: 'Space Grotesk', sans-serif !important;
-  font-size: 28px !important;
-  font-weight: 800 !important;
-  text-shadow: none !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 27px;
+  text-shadow: none;
 }
 
 ```css
@@ -934,28 +913,4 @@ footer p:first-child {
   display: block !important;
 }
 
-```css
-/* FIX LOGO V VAULTIFY */
-.header .brand .brand-icon {
-  background: #8b5cf6 !important;
-  color: #ffffff !important;
-  -webkit-text-fill-color: #ffffff !important;
-
-  border: 2px solid #c4b5fd !important;
-  border-radius: 17px !important;
-
-  font-family: Arial, sans-serif !important;
-  font-size: 32px !important;
-  font-weight: 900 !important;
-  line-height: 1 !important;
-
-  display: grid !important;
-  place-items: center !important;
-
-  opacity: 1 !important;
-  visibility: visible !important;
-  text-shadow: 0 0 8px #ffffff50 !important;
-
-  box-shadow: 0 0 20px #8b5cf650 !important;
-}
 ```
