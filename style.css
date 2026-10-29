@@ -870,4 +870,24 @@ footer {
 footer p:first-child {
   color: #f8fafc !important;
 }
+
+```css
+/* FIX LOGO VAULTIFY */
+.brand-icon {
+  background: linear-gradient(135deg, #64ffcb, #43e8b0) !important;
+  color: #09120f !important;
+  border: 1px solid #8bffdc !important;
+  box-shadow:
+    0 0 15px rgba(100, 255, 203, 0.25),
+    0 0 30px rgba(100, 255, 203, 0.10) !important;
+  font-weight: 800 !important;
+  opacity: 1 !important;
+}
+
+/* Pastikan huruf V terlihat jelas */
+.brand-icon {
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 27px !important;
+  text-shadow: none !important;
+}
 ```
