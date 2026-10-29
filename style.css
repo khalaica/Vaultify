@@ -933,4 +933,29 @@ footer p:first-child {
 #transaction-form .primary-button {
   display: block !important;
 }
+
+```css
+/* FIX LOGO V VAULTIFY */
+.header .brand .brand-icon {
+  background: #8b5cf6 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+
+  border: 2px solid #c4b5fd !important;
+  border-radius: 17px !important;
+
+  font-family: Arial, sans-serif !important;
+  font-size: 32px !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+
+  display: grid !important;
+  place-items: center !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+  text-shadow: 0 0 8px #ffffff50 !important;
+
+  box-shadow: 0 0 20px #8b5cf650 !important;
+}
 ```
