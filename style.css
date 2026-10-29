@@ -890,4 +890,25 @@ footer p:first-child {
   font-size: 27px !important;
   text-shadow: none !important;
 }
+
+```css
+/* LOGO VAULTIFY — PURPLE NEON */
+.header .brand .brand-icon {
+  background: linear-gradient(135deg, #a78bfa, #7c3aed) !important;
+  color: #ffffff !important;
+  border: 2px solid #c4b5fd !important;
+  border-radius: 17px !important;
+
+  box-shadow:
+    0 0 15px rgba(167, 139, 250, 0.4),
+    0 0 30px rgba(124, 58, 237, 0.2) !important;
+
+  font-family: 'Space Grotesk', sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  text-shadow: none !important;
+
+  opacity: 1 !important;
+  visibility: visible !important;
+}
 ```
