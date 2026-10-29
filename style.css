@@ -872,26 +872,6 @@ footer p:first-child {
 }
 
 ```css
-/* FIX LOGO VAULTIFY */
-.brand-icon {
-  background: linear-gradient(135deg, #64ffcb, #43e8b0);
-  color: #09120f;
-  border: 1px solid #8bffdc;
-  box-shadow:
-    0 0 15px rgba(100, 255, 203, 0.25),
-    0 0 30px rgba(100, 255, 203, 0.10);
-  font-weight: 800;
-  opacity: 1;
-}
-
-/* Pastikan huruf V terlihat jelas */
-.brand-icon {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: 27px;
-  text-shadow: none;
-}
-
-```css
 /* Sembunyikan ikon plus di judul Tambah transaksi */
 .panel .section-heading .heading-icon {
   display: none !important;
